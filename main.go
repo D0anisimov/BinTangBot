@@ -8,10 +8,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/m1guelpf/chatgpt-telegram/src/chatgpt"
-	"github.com/m1guelpf/chatgpt-telegram/src/config"
-	"github.com/m1guelpf/chatgpt-telegram/src/session"
-	"github.com/m1guelpf/chatgpt-telegram/src/tgbot"
+	"github.com/D0anisimov/BinTangBot/src/chatgpt"
+	"github.com/D0anisimov/BinTangBot/src/config"
+	"github.com/D0anisimov/BinTangBot/src/session"
+	"github.com/D0anisimov/BinTangBot/src/tgbot"
 )
 
 func main() {

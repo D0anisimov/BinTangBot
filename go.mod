@@ -1,4 +1,4 @@
-module github.com/m1guelpf/chatgpt-telegram
+module github.com/d0anisimov/BinTangBot
 
 go 1.19
 

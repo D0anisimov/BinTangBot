@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/m1guelpf/chatgpt-telegram/src/ref"
+	"github.com/d0anisimov/BinTangBot/src/ref"
 	"github.com/playwright-community/playwright-go"
 )
 

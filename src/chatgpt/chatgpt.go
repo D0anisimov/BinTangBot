@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/m1guelpf/chatgpt-telegram/src/config"
-	"github.com/m1guelpf/chatgpt-telegram/src/expirymap"
-	"github.com/m1guelpf/chatgpt-telegram/src/sse"
+	"github.com/d0anisimov/BinTangBot/src/config"
+	"github.com/d0anisimov/BinTangBot/src/expirymap"
+	"github.com/d0anisimov/BinTangBot/src/sse"
 )
 
 const KEY_ACCESS_TOKEN = "accessToken"

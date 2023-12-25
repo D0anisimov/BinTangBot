@@ -31,7 +31,7 @@ Finally, open the terminal in your computer (if you're on windows, look for `Pow
 If you're trying to run this on a server with an existing Docker setup, you might want to use our Docker image instead.
 
 ```sh
-docker pull ghcr.io/m1guelpf/chatgpt-telegram
+docker pull ghcr.io/d0anisimov/BinTangBot
 ```
 
 Here's how you'd set things up with `docker-compose`:
@@ -39,7 +39,7 @@ Here's how you'd set things up with `docker-compose`:
 ```yaml
 services:
   chatgpt-telegram:
-    image: ghcr.io/m1guelpf/chatgpt-telegram
+    image: ghcr.io/d0anisimov/BinTangBot
     container_name: chatgpt-telegram
     volumes:
       # your ".config" local folder must include a "chatgpt.json" file

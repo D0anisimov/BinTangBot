@@ -5,10 +5,10 @@ import (
 	"os"
 	"time"
 
+	"github.com/d0anisimov/BinTangBot/src/chatgpt"
+	"github.com/d0anisimov/BinTangBot/src/markdown"
+	"github.com/d0anisimov/BinTangBot/src/ratelimit"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
-	"github.com/m1guelpf/chatgpt-telegram/src/chatgpt"
-	"github.com/m1guelpf/chatgpt-telegram/src/markdown"
-	"github.com/m1guelpf/chatgpt-telegram/src/ratelimit"
 )
 
 type Bot struct {
